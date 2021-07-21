@@ -170,11 +170,10 @@
     display:none;
 }
 
-.school-name{
+/* .school-name{
     cursor: pointer;
     border: 1px solid #29274C;
     border-radius: 10px; 
-    /* width: 40vw; */
     margin: 0.5em auto;
     padding: 0.6em 0.1em 0.6em 0.1em; 
     font-family: "Heebo";
@@ -187,6 +186,11 @@
     font-size: 1.5em;
     letter-spacing: 0.2px;
     font-weight: bolder;
+    
+    box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+    
 }
 
 .school-name:hover{
@@ -194,7 +198,30 @@
     animation: fade-in 5s ease;
     transition: transform 150ms;
     transform: scale(1.03)
-}
+} */
+
+.school-name {
+    cursor: pointer;
+    /* border: 1px solid #826288; */
+    border-radius: 10px; 
+    margin: 0.75em auto;
+    padding: 0.6em 0.1em 0.6em 0.1em; 
+    font-family: "Heebo";
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    background: black;
+    font-size: 1.5em;
+    letter-spacing: 0.2px;
+    font-weight: bolder;
+
+    box-shadow: 0 0 2em 2em #826288 inset, 0 0 0 0 #826288;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+  }
+  .school-name:hover {
+    box-shadow: 0 0 0.5em 0 #826288 inset, 0 0 0.5em 0.25em #826288;
+  }
 
 .hed1{
     color: #826288
