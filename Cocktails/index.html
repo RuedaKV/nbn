@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- CSS/OTHER STYLESHEETS (feel free to add more below) -->
+        <link rel="stylesheet" href="style.css">
+        <!-- FONTS (feel free to add more below) -->
+        <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;700&family=Heebo:wght@300;400;500;600;700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+        <!-- TITLE (replace with article hed) -->
+        <title>School Spirits</title>
+    </head>
+
+    <body>
+
+        <!-- NAV BAR - please don't touch! -->
+        <nav class="nav-bar">
+            <div class="logo logo-image">
+                <svg version="1.1" width="42" height="42" viewBox="0 0 440 440">
+                    <a xlink:title="Digital Mag Homepage" xlink:href="index.html#target">
+                        <path d="M347.5,40.7l34.4,66h-25v244.5l-43.1,0.2c0,0-0.8,0.4-2.6-3.8c-1.7-4.2-72.3-163.3-72.3-163.3s-1.3-2.6-1.8-2.7
+                        c0,2-0.2,170-0.2,170l-45.8-0.3V106.7l61.1,0.1c0,0,2,0,3.4,2.4c1.3,2.4,54,122.2,54,122.2s1.9,4.5,2.8,4.1c0-1.8,0-128.7,0-128.7
+                        h-23l40.4-77.4C297.4,10.7,260,0,220,0C98.5,0,0,98.5,0,220s98.5,220,220,220s220-98.5,220-220C440,146,403.5,80.6,347.5,40.7z"/>
+                    </a>
+                </svg>
+            </div>
+        </nav>
+
+        <header class="article-top-content">
+            <div class="header">
+            <h1 class="article-hed">
+                <span class="hed1">School</span> <span class="hed2">Spirits</span>
+            </h1>
+        </div>
+
+            <h2 class="article-dek">A curated cocktail menu for each and every Northwestern school.</h2>
+            <h3 class="article-byline">BY <a class="byline-link" href="https://northbynorthwestern.com/author/tabor/">Tabor Brewster</a></h3>
+        </header>
+
+        <article class="article-body">
+            <p>In an era of being sad and lonely in our dorms and apartments, we NERDwestern students might find ourselves needing a special NorthWASTED pick-me-up to take the edge off. Fear not, dear reader, for we mixologists at NBN have compiled a recipe book of the perfect cocktails for each Northwestern school.
+            </p>
+
+            <div class="school-content">
+                <h2 class="school-name" onclick="weinberg()">Weinberg College of Arts and Sciences
+                </h2>
+                <!-- <button onclick="weinberg()">Weinberg College of Arts and Sciences</button> -->
+
+                <div class="school-div" id = "weinberg-div" style="display:none"> 
+                <h2 class="school-drink">The Weinberger Bomb
+                </h2>
+
+                <img class="drink-img" src="images/Weinberg.png">
+
+                <ul class="ingredients">
+                    <li>
+                        12 oz. beer or seltzer of choice
+                        </li>
+                    <li>1 ½ oz. whizkey, rum or vodka in a shot glass
+                    </li>
+                    <li>A dash of overconfidence, shaken, not stirred
+                    </li>
+                  </ul>
+
+                <br>
+
+                <p>For a school with as many majors as Weinberg, it’s only fitting that we choose a drink that encompasses many tastes. Weinberg students, we recommend that you kick back with something simple yet satisfying, like a beer or seltzer.
+                </p>
+
+                <p>A beer? That’s it? We’re more interesting than that.
+                </p>
+
+                <p>Okay, okay, we get it, you like to party. Introducing the Weinberger Bomb! Grab your favorite beer or seltzer of choice, accompanied by a shot glass of either whiskey, rum or vodka. Pour the canned beverage into a glass, then get ready to drop your “bomb” of hard liquor in (just like how you dropped that fourth class in the second week of Spring Quarter — kaboom!).
+                </p>
+            </div>
+            </div>
+
+            <div class="school-content">
+                <h2 class="school-name" onclick="comms()">School of Communication
+                </h2>
+
+                <div class="school-div" id="comms-div" style="display:none">
+                <h2 class="school-drink">The School of Comm Cosmo
+                </h2>
+
+                <img class="drink-img" src="images/School_Of_Communication.png">
+
+
+                <ul class="ingredients">
+                    <li>1 ½ oz. fruit-flavored vodka</li>
+                    <li>1 oz. Cointreau
+                    </li>
+
+                    <li>½ oz. lime juice</li>
+                    <li>¼ oz. cranberry juice
+                    </li>
+
+                    <li>Your show tune of choice, to chase
+                    </li>
+
+                  </ul>
+
+                  <br>
+
+
+                <p>For all the thespians, dramatics and Hollywood hopefuls in the School of Communication, we had to create something with enough star power to really blow you away (and with enough kick to ease that awkward sexual tension within your acappella group). Introducing the School of Comm Cosmo. What’s better than a cosmopolitan to encapsulate the drama of Comm, served well-chilled and in a martini glass?
+                </p>
+            </div>
+            </div>
+
+            <div class="school-content">
+                <h2 class="school-name" onclick="bienin()">Bienen School of Music
+                </h2>
+
+                <div class="school-div"  id="bienin-div" style="display:none">
+                <h2 class="school-drink">The Bienen Colada
+                </h2>
+
+                <img class="drink-img" src="images/Bienen_.png">
+
+                <ul class="ingredients">
+                    <li>6 oz. pineapple juice
+                    </li>
+                    <li>3 oz. coconut cream
+                    </li>
+                    <li>1 ½ oz. light rum
+                    </li>
+                    <li>1 ½ oz. crushed ice
+                    </li>
+                    <li>Soft saxophone, to accompany
+                    </li>
+                  </ul>
+
+                <br>
+
+                <p>Ready to kick back and pretend your practice space in Ryan overlooking Lake Michigan is actually a room on a Royal Caribbean Cruise? Well, hopefully your practice room comes with a blender, because you’re going to need it for the Bienen Colada. Mixologist’s tip: Share it with your entire Latin jazz combo for that authentic feel that you’ve been trying to get for weeks.
+                </p>
+            </div>
+            </div>
+
+            <div class="school-content">
+                <h2 class="school-name" onclick="mccormick()">McCormick School of Engineering and Applied Science
+                </h2>
+
+                <div class="school-div" id="mccormick-div" style="display:none">
+                <h2 class="school-drink">The McCorpse Reviver No. 3
+                </h2>
+
+                <img class="drink-img" src="images/McCormick.png">
+
+                <ul class="ingredients">
+                    <li>1 oz. gin
+                    </li>
+
+                    <li>1 oz. Italian vermouth
+                    </li>
+
+                    <li>1 oz. Cointreau
+                    </li>
+
+                    <li>1 oz. lemon juice
+                    </li>
+
+                    <li>1 dash absinthe
+                    </li>
+
+                    <li>A sprinkle of sadness, for garnish
+                    </li>
+                  </ul>
+
+                <br>
+
+                <p>Do you McCormick students often find yourselves barely alive, almost entirely lacking a pulse, as your dinosaur of a computer science professor drones on and on about who knows what? Well, for all you budding scientists, mathematicians and engineers, we’ve prepared a drink to revitalize your day and get you going just like the pre-pandemic party animal you used to be! Introducing … the McCorpse Reviver No. 3.
+                </p>
+            </div>
+            </div>
+
+            <div class="school-content">
+                <h2 class="school-name" onclick="sesp()">School of Education and Social Policy
+                </h2>
+
+                <div class="school-div" id="sesp-div" style="display:none">
+                <h2 class="school-drink">The SESP Appletini
+                </h2>
+
+                <img class="drink-img" src="images/SESP.png">
+
+                <ul class="ingredients">
+                    <li>1 oz. apple juice</li>
+                    <li>1 ½ oz. vodka
+                    </li>
+                    <li>¼ oz. lemon juice
+                    </li>
+                    <li>1 ¼ oz. green apple schnapps
+                    </li>
+                    <li>A splash of mystery, to top
+                    </li>
+                  </ul>
+
+                <br>
+
+                <p>Little is known about SESP other than, I guess, teaching? For this reason, we decided to warm you all up to the idea of eating apples every day of the rest of your lives (What’s with teachers and apples, anyway?) and give you the perfect teacher’s cocktail: the SESP Appletini. Enjoy this drink while you turn off your Zoom camera and secretly get hammered during office hours. Woohoo!
+                </p>
+            </div>
+            </div>
+
+            <div class="school-content">
+                <h2 class="school-name" onclick="medill()">Medill School of Journalism, Media, Integrated Marketing Communications
+                </h2>
+
+                <div class="school-div" id="medill-div" style="display:none">
+                <h2 class="school-drink">The AP Style Adios Motherfucker
+                </h2>
+
+                <img class="drink-img" src="images/Medill.png"> 
+
+                <ul class="ingredients">
+                    <li>½ oz. vodka</li>
+                    <li>½ oz. rum
+                    </li>
+                    <li>½ oz. tequila</li>
+                    <li>½ oz. gin
+                    </li>
+                    <li>½ oz. blue curaçao
+                    </li>
+                    <li>½ oz. simple syrup
+                    </li>
+                    <li>½ oz. lemon juice
+                    </li>
+                    <li>1 oz. Sprite
+                    </li>
+                    <li>Pen and paper, for notes
+                    </li>
+                  </ul>
+
+                <br>
+
+                <p>As you Medill students continue to bombard innocent bystanders with your constant questions, interviews and blabbering (All for the sake of what? Journalism? Ew.), consider taking a moment to try a cocktail nearly as aggressive as your interview methods: the AP Style Adios Motherfucker. This new take on a classic Long Island iced tea is surely complicated, yet not quite as complicated as whatever the hell a nut graf is.
+                </p>
+            </div>
+            </div>
+        </article>
+
+        <footer class="article-credits">
+            <h2 class="credits-heading">Credits</h2>
+            <h3 class="credits-subhed">Writing <span class="credits-item">Tabor Brewster</span></h3>
+            <h3 class="credits-subhed">Editing <span class="credits-item">Editor Name</span></h3>
+            <h3 class="credits-subhed">Print Design <span class="credits-item">JUNTANG QIAN</span></h3>
+            <h3 class="credits-subhed">Web Design & Development <span class="credits-item">Kevin Rueda</span></h3>
+            <h2 class="credits-link"><a href="">Back to Magazine Homepage</a></h2>
+        </footer>
+    </body>
+
+    <!-- JS STYLESHEETS (feel free to add more below) -->
+    <script src="main.js"></script>
+
+</html>
