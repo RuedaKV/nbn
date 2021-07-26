@@ -115,7 +115,7 @@
 /**** DROP CAP - you can change color / font if needed ****/
 
 .drop-cap:first-child:first-letter {
-    color: black;
+    color: #826288;
     font-family: 'Heebo', sans-serif;
     font-weight: 600;
     font-size: 62px;
@@ -207,28 +207,54 @@
     margin: 0.75em auto;
     padding: 0.6em 0.1em 0.6em 0.1em; 
     font-family: "Heebo";
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     color: white;
     text-align: center;
-    background: black;
+    background: #826288;
     font-size: 1.5em;
     letter-spacing: 0.2px;
     font-weight: bolder;
+    
 
-    box-shadow: 0 0 2em 2em #826288 inset, 0 0 0 0 #826288;
+    background-image: -webkit-linear-gradient(45deg, black  50%, transparent 50%);
+    background-image: linear-gradient(45deg, black 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+    -webkit-transition: background 450ms ease-in-out;
+    transition: background 450ms ease-in-out;
+
+    /* box-shadow: 0 0 2em 2em #826288 inset, 0 0 0 0 #826288;
     -webkit-transition: all 150ms ease-in-out;
-    transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out; */
   }
   .school-name:hover {
-    box-shadow: 0 0 0.5em 0 #826288 inset, 0 0 0.5em 0.25em #826288;
+    /* box-shadow: 0 0 0.5em 0 #826288 inset, 0 0 0.5em 0.25em #826288; */
+    background-position: 0;
+  }
+
+
+  .fourth {
+    border-color: #f1c40f;
+    color: #fff;
+    background-image: -webkit-linear-gradient(45deg, #f1c40f 50%, transparent 50%);
+    background-image: linear-gradient(45deg, #f1c40f 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+    -webkit-transition: background 300ms ease-in-out;
+    transition: background 300ms ease-in-out;
+  }
+  .fourth:hover {
+    background-position: 0;
   }
 
 .hed1{
-    color: #826288
+    color: #826288;
+    font-size: 1.5em;
 }
 
 .hed2{
-    color: #b16e71
+    color: #b16e71;
+    font-size: 1.5em;
 }
 
 .school-div{
@@ -246,6 +272,10 @@
 
 .ingredients{
     padding-left: 1.2em;
+    font-family: 'Heebo', sans-serif;
+    font-weight: lighter;
+    margin-bottom: 0;
+    line-height: 1.1em;
 }
 
 @keyframes fadeIn {
@@ -277,8 +307,10 @@
     font-family: "Heebo";
     text-transform: uppercase;
     color:#b16e71;
-    text-align: justify;
+    /* text-align: justify; */
+    margin-bottom: 0.5em;
 }
+
 
 
 /************* CREDITS **************/
