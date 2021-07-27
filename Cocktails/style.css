@@ -305,7 +305,6 @@
 
 .school-drink{
     font-family: "Heebo";
-    text-transform: uppercase;
     color:#b16e71;
     /* text-align: justify; */
     margin-bottom: 0.5em;
@@ -324,7 +323,7 @@
     margin-top: 8vh;
     padding-top: 5vh;
     padding-bottom: 5vh;
-    background-color: black;
+    background-color: #b16e71;
     color: white;
 }
 
