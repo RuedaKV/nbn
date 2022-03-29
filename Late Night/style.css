@@ -1,0 +1,395 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/************* NAV BAR **************/
+
+.nav-bar {
+    z-index: 1000;
+    background-color: transparent;
+    padding: 17px 10px 50px 20px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 1vh;
+    transition-duration: 1s;
+}
+
+.logo {
+    display: inline;
+    align-items: center;
+    position: relative;
+}
+.logo-image {
+    grid-area: content;
+    float: left;
+    background-color: transparent;
+}
+
+.nav-bar a {
+    fill: black;
+    transition-duration: 1s;
+}
+
+.nav-bar a:hover {
+    fill: #313131;
+    transition-duration: 0s;
+}
+
+/* NAV BAR ON SCROLL */
+
+.nav-bar-scroll {
+    background-color: black;
+}
+
+.nav-bar-scroll a {
+    fill: white;
+}
+
+.nav-bar-scroll a:hover {
+    fill: #ECECEC;
+    transition-duration: 0s;
+}
+
+
+/************* HEADER (HED, DEK, BYLINE) **************/
+
+.article-top-content {
+    margin-top: 15vh;
+    padding-left: 28%;
+    padding-right: 28%;
+}
+
+.article-hed {
+    font-family: 'Epilogue', sans-serif;
+    font-size: 5vw;
+    margin-bottom: 0;
+    line-height: 1.1em;
+    color: white;
+}
+
+.article-dek {
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 200;
+    font-size: 25px;
+    margin-top: 15px;
+    line-height: 1.1em;
+    color: white;
+    text-shadow: 0 0 0.2em white;
+}
+
+.article-byline {
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 200;
+    font-size: 17px;
+    margin-top: 25px;
+    color: white;
+}
+
+
+
+.byline-link {
+    color: white;
+    text-decoration: none;
+}
+
+.byline-link:hover {
+    color:#ECECEC;
+;
+}
+
+
+/************* BODY TEXT **************/
+
+.article-body {
+    text-align: left;
+    padding-left: 28%;
+    padding-right: 28%;
+    margin-top: 4vh;
+    margin-bottom: 5vh;
+    font-size: 19px;
+    line-height: 1.6em;
+    color: white;
+    font-family: expo-serif-pro, serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.article-body p {
+    margin-bottom: 20px;
+}
+
+/**** DROP CAP - you can change color / font if needed ****/
+
+.drop-cap:first-child:first-letter {
+    color: white;
+    font-family: Epilogue;
+    font-weight: 600;
+    font-size: 62px;
+    float: left;
+    line-height: 48px;
+    margin-top: 10px;
+    padding-right: 8px;
+}
+
+/**** PULLQUOTE - feel free to change / get creative with this! ****/
+
+.pullquote {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-family: 'Heebo', sans-serif;
+    margin-left: -30px;
+    margin-right: -30px;
+}
+
+.pullquote p {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1.4em;
+}
+
+.pullquote cite {
+    font-size: 19px;
+}
+
+
+/************* CREDITS **************/
+
+.article-credits {
+    text-align: center;
+    padding-left: 28%;
+    padding-right: 28%;
+    font-family: 'Assistant', sans-serif;
+    text-transform: uppercase;
+    margin-top: 8vh;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    background-color: black;
+    color: white;
+}
+
+.credits-heading {
+    font-weight: 700;
+    font-size: 19px;
+}
+
+.credits-subhed {
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.credits-item {
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.credits-link {
+    margin-top: 20px;
+}
+
+.credits-link a {
+    font-weight: 400;
+    font-size: 22px;
+    color: white;
+}
+
+.credits-link a:hover {
+    color: #ECECEC;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.body{
+    background: linear-gradient(to left top, #b0719e,  #04427c);
+
+}
+
+
+
+pre{
+    font-family: 'Epilogue', sans-serif;
+}
+
+.title-bold{
+    font-weight: 600;
+}
+
+.sign-img{
+    padding-top: -12vh;
+    width: 65vw;
+    display: block;
+    margin-left: -10vw;
+    margin-right: auto;
+    margin-bottom: -8vh;
+}
+
+.bottom-images {
+    padding-top: 12vh;
+    display: flex;
+    /* margin-bottom: -115vh; */
+    margin-bottom: 0;
+  }
+  
+  .column {
+    flex: 33.33%;
+    /* padding: 5px;
+    margin-right: 1vw; */
+    text-align: center;
+    position: relative;
+  }
+
+
+
+.crystal-one{
+    width:20%;
+    position:absolute;
+    float:right;
+    right:5vw;
+    clear:both;
+}
+
+.crystal-two{
+    width:30%;
+    position:absolute;
+    float:left;
+    left:-2vw;
+    clear:both;
+}
+
+/* .article-body{
+    margin-bottom: -6.7vh;
+} */
+
+
+
+.article-title-image {
+    position: relative;
+    width: 150%;
+    height: auto;
+    display: block;
+    margin-left: -12vw;
+}
+
+
+.title {
+    position: relative;
+    /* text-align: center;
+    color: white;
+    margin-bottom: -5vw;
+    font-weight: 100; */
+    margin-bottom: -10vh;
+  }
+  
+.article-hed {
+  position: absolute;
+  transform: rotate(-10deg);
+  top: 30%;
+  left: 2%;
+  font-weight: 100;
+  text-shadow: 0 0 0.2em white;
+  white-space: nowrap;
+}
+
+
+
+/************* MOBILE STYLING **************/
+/* add any mobile-specific CSS here but please leave .navbar and .article-credits styling as is! */
+@media screen and (max-width: 700px){
+    .navbar{
+        height: 5vh;
+    }
+
+    .sign{
+        display: none;
+    }
+
+    .title{
+        width: 160%;
+        padding-bottom: 5vh;
+        display: flex;
+        justify-content: center;
+        margin-left: -10vw;
+    }
+
+    .article-title-image{
+        display: flex;
+        justify-content: center;
+        margin-right: 0;
+        margin-right: 0;
+    }
+
+
+    .article-hed{
+        font-size: 1.8em;
+        display: block;
+        margin: 0 auto;
+        top: 25%;
+        left: 0%;
+    }
+
+
+
+    
+
+    .article-dek{
+        font-size: 1.5em;
+    }
+
+    .article-byline{
+        font-size: 1em;
+    }
+    .article-body{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .pullquote {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .article-credits {
+        padding-left: 5%;
+        padding-right: 5%;
+    } 
+
+    .sign-img{
+        text-align : center;
+        width: 100vw;
+        /* margin-left: auto;
+        margin-right: auto;
+        justify-content: center; */
+        display: flex;
+        justify-content: center;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: -10vh;
+    }
+
+    
+
+    .bottom-images{
+        display: flex;
+        justify-content: center;
+        margin-right: 0;
+        margin-right: 0;
+    }
+
+    .crystal-one{
+        display: none;
+    }
+
+    .crystal-two{
+        display: none;
+    }
+}
