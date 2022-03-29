@@ -1,5 +1,5 @@
 # NBN Mag-to-Web
-Digitized web pages from NBN Spring 2021 and Fall 2021 edition.
+Digitized web pages from North by Northwestern's Spring 2021 and Fall 2021 edition.
 
 All pages are accessible online below.
 
